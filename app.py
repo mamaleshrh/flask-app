@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from rating import get_difficulty
-import requests
+# import requests
 app = Flask(__name__)
 
 @app.route("/")
