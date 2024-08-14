@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def start():
-    return "home page"
+    return "home page mamalesh"
 
 @app.route("/mamalesh")
 def mbsa():
